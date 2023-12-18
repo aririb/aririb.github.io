@@ -1,0 +1,152 @@
+/* Ariana Brown ariana_brown@student.uml.edu */
+* {
+    font-family: impact, sans-serif;
+    background-color: #2C2B30;
+    color: #D6D6D6;
+}
+
+/* Styling for specific elements: headers, paragraphs, and forms */
+h2, p, form {
+    color: #D6D6D6;
+}
+
+/* Styling for tables */
+table {
+    width: 100%;
+    border: #2C2B30;
+    color: #2C2B30;
+    font-weight: bold;
+}
+
+/* Styling for table headers and thead */
+th, thead {
+    color: #D6D6D6;
+    background: #F58F7C;
+    font-weight: bold;
+}
+
+/* Styling for table cells */
+td {
+    background: #F2C4CE;
+}
+
+/* Styling for jQuery UI slider */
+.ui-slider {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ui-slider-handle {
+    height: 24px;
+    width: 12px;
+}
+
+/* Styling for main heading */
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: #D6D6D6;
+    margin-bottom: 0%;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: #D6D6D6;
+    margin-bottom: 0%;
+    font-weight: lighter;
+}
+
+/* Styling for the score board */
+#scoreBoard {
+    text-align: center;
+    font-family: impact, sans-serif;
+    width: 600px;
+    margin-top: 0%;
+    margin: 27px auto 10px auto;
+    padding-top: 20px;
+    border-top: 50px solid #F58F7C;
+    font-size: 30px;
+}
+#scoreBoard div {
+    display: inline-block;
+}
+
+/* Styling for specific elements: word, score, remainingTiles, highScore */
+#word, #score, #remainingTiles, #highScore {
+    width: 75px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+/* Styling for the game board */
+#board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Styling for board slots */
+.boardSlot {
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+
+/* Styling for buttons */
+.buttons {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styling for game instruction */
+#instruction {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Styling for the letter rack */
+#letterRack {
+    width: 650px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("../images/TileHolder.png");
+}
+
+/* Styling for letter tiles */
+.letterTile {
+    border-radius: 4px;
+    margin: 0px;
+    width: 75px;
+    height: 85px;
+}
+
+/* Styling for letter tiles on the rack */
+.letter_rack {
+    margin: 27px 5px 0px 5px;
+}
+
+/* Styling for letter tiles on the board */
+.letter_board {
+    top: 10px;
+}
+
+/* Styling for buttons */
+button {
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
